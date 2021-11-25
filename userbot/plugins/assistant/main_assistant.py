@@ -43,10 +43,10 @@ async def start(event):
     if event.sender_id == bot.uid:
         await tgbot.send_message(
             vent,
-            message=f"Hi Master, It's Me {bot_id}, Your Assistant ! \nWhat You Wanna Do today ?",
+            message=f"හායි බොසා, It's Me {bot_id},මම ඔබේ සහකරු! \nමට ඔබට උදව් කිරීමට අවශ්‍ය වන්නේ කෙසේද? ?",
             buttons=[
-                [custom.Button.inline("Users List", data="users")],
-                [custom.Button.inline("Help & Commands", data="gibcmd")],
+                [custom.Button.inline("Users List-පරිශීලක ලැයිස්තුව", data="users")],
+                [custom.Button.inline("Help & Commands-උදව් සහ විධාන", data="gibcmd")],
                 [
                     Button.url(
                         "Add Me to Group 👥", f"t.me/{bot_username}?startgroup=true"
@@ -65,8 +65,8 @@ async def start(event):
             link_preview=False,
             buttons=[
                 [custom.Button.inline("Deploy your BL ", data="deploy")],
-                [Button.url("Help Me ❓", "https://t.me/lightning_support_group")],
-                [Button.url("Lightning Web💫", "https://lightninguserbot.blogspot.com")],
+                [Button.url("CONTACT DEVELOPER ", "https://t.me/Dk_king_offcial")],
+                [Button.url("Lightning Web💫", "https://data-maruwo.business.site/")],
             ],
         )
 
@@ -88,8 +88,8 @@ async def help(event):
                         "https://www.youtube.com/watch?v=GfZMqrCAqxI",
                     )
                 ],
-                [Button.url("Need Help ❓", "https://t.me/lightning_support_group")],
-                [Button.url("Lightning Web💫", "https://lightninguserbot.blogspot.com")],
+                [Button.url("🌐CONTACT DEVELOPER🌐", "https://t.me/Dk_king_offcialp")],
+                [Button.url("🌐DK-KING-USER-BOT Web🌐", "https://data-maruwo.business.site/")],
             ],
         )
 
