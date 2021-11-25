@@ -1,4 +1,4 @@
-name: KeinShin
+name: Dk_king_offcial
 
 on: push
 
@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "lightningsupport"
+          find: "Dk_king_offcial-support"
 
-          replace: "lightning_support_group"
+          replace: "Dk_king_offcial_support_group"
 
       - name: Create Pull Request
 
