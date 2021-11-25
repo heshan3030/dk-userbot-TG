@@ -21,8 +21,8 @@ from . import *
 
 #### Variables ####
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ʙʟᴀᴄᴋ-ʟɪɢʜᴛɴɪɴɢ ᴜꜱᴇʀ "
-ALIVE_MSG = f"This is {DEFAULTUSER}'s 𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "♥ﮩ٨ـﮩﮩ٨ـﮩﮩ ∂к-кιηgυѕєя-вσт ﮩﮩـ٨ﮩﮩـ٨ﮩ♥ ᴜꜱᴇʀ "
+ALIVE_MSG = f"This is {DEFAULTUSER}'s❝𝐃𝐊-𝐊𝐈𝐍𝐆𝐔𝐒𝐄𝐑-𝐁𝐎𝐓❞"
 
 ALIVE_PIC = Config.ALIVE_PHOTTO
 
@@ -92,7 +92,7 @@ async def alive(e):
     uptime = get_readable_time((time.time() - Lastupdate))
 
     cap = """
-**𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭**
+**❂𐂷 ƊƘ-ƘƖƝƓꓴⳜƸⱤ-ƁⰙƬ 𐂷❂**
 **{}**
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪
@@ -104,7 +104,7 @@ async def alive(e):
 ║┣⪼ **Ⲃⲟⲧ Ⲣⲓⲛⳋ** - `{}`
 ║┣⪼ **Ⲣⲩⲧⲏⲟⲛ** - `{}` 
 ║┣⪼ **Ⲧⲉⳑⲉⲧⲏⲟⲛ** - `{}` 
-║┣⪼ [✨𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨](https://github.com/KeinShin/Black-Lightning/)
+║┣⪼ [✨🌸ꗥ～ꗥ🌸 𝐃𝐊-𝐊𝐈𝐍𝐆𝐔𝐒𝐄𝐑-𝐁𝐎𝐓 🌸ꗥ～ꗥ🌸✨](https://github.com/heshan3030/dk-userbot-TG/)
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪
 """.format(
 
