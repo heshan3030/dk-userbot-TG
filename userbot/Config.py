@@ -87,20 +87,20 @@ class Var(object):
     SPOTIFY_BIO_PREFIX = os.environ.get("SPOTIFY_BIO_PREFIX", None)
     ASSISTANT_LOG = int(os.environ.get("ASSISTANT_LOG", False))
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/KeinShin/Black-Lightning"
+        "UPSTREAM_REPO", "https://github.com/heshan3030/dk-userbot-TG"
     )
     ALIVE_PIC = os.environ.get(
-        "ALIVE_IMAGE", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+        "ALIVE_IMAGE", "https://te.legra.ph/file/f8610f27af09cdaf40589.jpg"
     )
     CUSTOM_ALIVE_PIC = os.environ.get(
-        "CUSTOM_ALIVE_IMG", "https://telegra.ph/file/50e422f6b07fa9126c1d1.jpg"
+        "CUSTOM_ALIVE_IMG", "https://te.legra.ph/file/f8610f27af09cdaf40589.jpg"
     )
     ALIVE_IMAGE = os.environ.get(
-        "ALIVE_PIC", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+        "ALIVE_PIC", "https://te.legra.ph/file/f8610f27af09cdaf40589.jpg"
     )
     ASSISTANT_START_PIC = os.environ.get(
         "ASSISTANT_START_PIC",
-        "https://telegra.ph/file/63abc60224dc567e3d441.jpg",
+        "https://te.legra.ph/file/f8610f27af09cdaf40589.jpg",
     )
     TESSDATA_PREFIX = os.environ.get(
         "TESSDATA_PREFIX", "/usr/share/tesseract-ocr/4.00/tessdata"
