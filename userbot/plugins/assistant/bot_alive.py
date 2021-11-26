@@ -12,7 +12,7 @@ currentversion = "2.1"
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DK-KING-USER-BOT"
 ASSIS_PIC = os.environ.get("ASSIS_PIC", None)
 if ASSIS_PIC is None:
-     PM_IMG = "https://telegra.ph/file/beb843ce962a738c52cad.jpg"
+     PM_IMG = "https://te.legra.ph/file/6b2477183e62dbd2bda47.mp4"
 else:
      PM_IMG = ASSIS_PIC
 
