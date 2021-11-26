@@ -111,7 +111,7 @@ async def amireallyalive(salive):
         )
         await sallive.delete()
         return
-    req = requests.get("https://te.legra.ph/file/11664f82b88a5e16e6f26.mp4")
+    req = requests.get("https://te.legra.ph/file/6b2477183e62dbd2bda47.mp4")
     req.raise_for_status()
     file = BytesIO(req.content)
     file.seek(0)
