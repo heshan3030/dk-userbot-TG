@@ -1,39 +1,42 @@
-#plugin by @Rishisuperyo @Parmatin
-#Some constant credits go to Varun and Ricksuperbro
-#kanger = kang wity credits else bhenchod macchar ki jaat teri chut gand ek kardunga saale
-#ha benjo tu teko hi bol rah 🤣🤣
-#usage .hpind
-#OP BOLTE
+#plugin by @Dk_king_offcial
+
 import asyncio
 import random
 from userbot import ALIVE_NAME
 from userbot.utils import lightning_cmd
 #Constant
-yo = "https://telegra.ph/file/11198632a306a03723d9d.mp4"
-yo2 = "https://telegra.ph/file/72d3a8c9d53b5c2ca927c.mp4"
-yo3 = "https://telegra.ph/file/4470a8593dbd2d181beca.mp4"
+yo = "https://te.legra.ph/file/6b2477183e62dbd2bda47.mp4"
+yo2 = "https://te.legra.ph/file/363dec1f9f2af8ebb229a.jpg"
+yo3 = "https://te.legra.ph/file/363dec1f9f2af8ebb229a.jpg"
 #SED I HAVE NO MORE IF U HAVE I WILL UPDATE IT :)
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "вℓα¢к ℓιgнтηιηg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "✨❝𝐃𝐊-𝐊𝐈𝐍𝐆-𝐔𝐒𝐄𝐑-𝐁𝐎𝐓❞✨"
 remd = bot.me.id
-cap =f"YEAH BRO 𝙷𝙰𝙿𝙿𝚈 𝙸𝙽𝙳𝙴𝙿𝙴𝙽𝙳𝙴𝙽𝙲𝙴 𝙳𝙰𝚈🇮🇳 TO [{DEFAULTUSER}](tg://user?id={remd})\n DONT FORGET TO CLICK 👉[dis](http://wish-style.com/?n=Rishisuperyo)👈\n ~ @Rishisuperyo"
+cap =f"YEAH BRO 𝙷𝙰𝙿𝙿𝚈 𝙸𝙽𝙳𝙴𝙿𝙴𝙽𝙳𝙴𝙽𝙲𝙴 𝙳𝙰𝚈🇱🇰 TO [{DEFAULTUSER}](tg://user?id={remd})\n DONT FORGET TO CLICK 👉[dis](http://wish-style.com/?n=Rishisuperyo)👈\n ~ @Rishisuperyo"
 #bruh
 
 @borg.on(lightning_cmd(pattern=r"hpind", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit("STARTING CELEBRATION OF 𝙷𝙰𝙿𝙿𝚈 𝙸𝙽𝙳𝙴𝙿𝙴𝙽𝙳𝙴𝙽𝙲𝙴 𝙳𝙰𝚈🇮🇳 ")
+    await event.edit("STARTING CELEBRATION OF 𝙷𝙰𝙿𝙿𝚈 𝙸𝙽𝙳𝙴𝙿𝙴𝙽𝙳𝙴𝙽𝙲𝙴 𝙳𝙰𝚈🇱🇰")
     await asyncio.sleep(3)
     s = random.randrange(1, 3)
     if s == 1:
-        await event.edit("THANKS TO OUR SOLDIERS WHO ARE PROTECTING US IN BORDER , JAI HIND🇮🇳")
+    await event.edit("THANKS TO OUR SOLDIERS WHO ARE PROTECTING US IN BORDER , srilanka🇱🇰
+  ගොන්ගාලේ ගොඩබණ්ඩා.වීර පුරන් අප්පු වැනි ශ්‍රේෂ්ඨ විරුවන් නිදහස ලබා ගැනීමේ සටනට නොබියව සටන් කළ අය වේ.වර්ෂ 1948 පෙබරවාරි මස 4 වැනිදා අපි ජාති භේද නොසලකා මහා සංග්‍රාමයකින් නිදහස ලැබුවෙමු.එය නිදහස් දිනයයි.
+
+   නිදහස ලබා සිහලුන් සහ ජනයන්ගේ
+
+   සිත් සතුටින් පිරුණි අසරණ මිනිසුන්ගේ
+
+   අභිමානයට ලක්විය යුතු කරුණක් වේ")
     if s == 2:
         await event.edit(
-        	     "BEFORE 74 YEARS WE GOT FREEDOM BY OUR FREEDOM FIGHTER, JAI HIND🇮🇳 "
+        	     "BEFORE 73 YEARS WE GOT FREEDOM BY OUR FREEDOM FIGHTER, srilanka🇱🇰"
         )
     if s == 3:
         await event.edit(
-        	     "WE SHOULD TAKE CARE OF OUR COUNTRY AND THANKS TO OUR SOLDIERS, JAI HIND🇮🇳"
+        	     "WE SHOULD TAKE CARE OF OUR COUNTRY AND THANKS TO OUR SOLDIERS, Jsrilanka🇱🇰"
         )
     await bot.send_message(event.chat_id, "Please don't blink ur eyes a surprise iz coming")
     await asyncio.sleep(4)            
