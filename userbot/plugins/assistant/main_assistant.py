@@ -43,10 +43,10 @@ async def start(event):
     if event.sender_id == bot.uid:
         await tgbot.send_message(
             vent,
-            message=f"හායි බොසා, It's Me {bot_id},මම ඔබේ සහකරු! \nමට ඔබට උදව් කිරීමට අවශ්‍ය වන්නේ කෙසේද? ?",
+            message=f"👋හායි boss😘, මගේ නම🤭 {bot_id},මම ඔබේ සහකරු👨‍💻✍! \nමම ඔබට උදව් කිරීමට අවශ්‍ය වන්නේ කෙසේද? ?",
             buttons=[
-                [custom.Button.inline("Users List-පරිශීලක ලැයිස්තුව", data="users")],
-                [custom.Button.inline("Help & Commands-උදව් සහ විධාන", data="gibcmd")],
+                [custom.Button.inline(".⚙🧲Users List-පරිශීලක ලැයිස්තුව", data="users")],
+                [custom.Button.inline(".⚙🧲Help & Commands-උදව් සහ විධාන", data="gibcmd")],
                 [
                     Button.url(
                         "Add Me to Group 👥", f"t.me/{bot_username}?startgroup=true"
@@ -66,7 +66,7 @@ async def start(event):
             buttons=[
                 [custom.Button.inline("Deploy your BL ", data="deploy")],
                 [Button.url("CONTACT DEVELOPER ", "https://t.me/Dk_king_offcial")],
-                [Button.url("Lightning Web💫", "https://data-maruwo.business.site/")],
+                [Button.url("DK-KING-USER-BOT Web💫", "https://data-maruwo.business.site/")],
             ],
         )
 
@@ -80,7 +80,7 @@ async def help(event):
     if event.query.user_id is not bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message="You Can Deploy Black Lightning In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
+            message="You Can Deploy DK-KING-USER-BOT In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
             buttons=[
                 [
                     Button.url(
