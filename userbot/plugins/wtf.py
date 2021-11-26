@@ -7,7 +7,7 @@ Available Commands:
 
 import asyncio
 
-from userbot.utils import lightning_cmd
+from userbot.utils import DK-KING-USER-BOT_cmd
 
 
 @borg.on(lightning_cmd("wtf"))
@@ -20,9 +20,9 @@ async def _(event):
     animation_chars = [
         "What",
         "What The F",
-        "What The Fa",
-        "What The Fak Brah",
-        "[What The Fakk Brah](https://telegra.ph//file/f3b760e4a99340d331f9b.jpg)",
+        "What The Fu",
+        "What The Fuck",
+        "[What The Fuck](https://te.legra.ph/file/b862626b4df2e6ed2af1d.jpg)",
     ]
 
     for i in animation_ttl:
