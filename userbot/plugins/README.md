@@ -1,2 +1,2 @@
 ## avalible new sinhala plugins
-![image](https://github.com/thecodebuzz/FileSizePOC/blob/master/TheCodebuzz.png?raw=true)
+![image](" https://te.legra.ph/file/f8610f27af09cdaf40589.jpg")
