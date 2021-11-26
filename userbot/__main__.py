@@ -61,9 +61,9 @@ for name in files:
          load_module(shortname.replace(".py", ""))
         except Exception:
             pass
-print("Lightning has been deployed! ")
+print("DK-KING-USER-BOT has been deployed! ")
 
-print("Setting up Lightning")
+print("Setting up DK-KING-USER-BOT")
 
 
 if Config.ENABLE_ASSISTANTBOT == "ENABLE":
@@ -81,7 +81,7 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
                 pass
     sed.info("DK-KING-USER-BOT Has Been Deployed Successfully !")
     sed.info("╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪")
-    sed.info("║┣⪼ Ⲟⲱⲛⲉʀ - ʙʟᴀᴄᴋ-ʟɪɢʜᴛɴɪɴɢ ᴜꜱᴇʀ ")
+    sed.info("║┣⪼ Ⲟⲱⲛⲉʀ - Dk_king_offcial ")
     sed.info("║┣⪼ Ⲋⲧⲁⲧυⲋ - Ⲟⲛⳑⲓⲛⲉ")
     sed.info("║┣⪼ Ⲃⲟⲧ Ⳳⲉʀⲋⲓⲟⲛ - 1.2.0")   
     sed.info("║┣⪼ Ⳙⲣⲧⲓⲙⲉ - 00h:00m:4s ")
