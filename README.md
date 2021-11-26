@@ -1,5 +1,5 @@
 ## ✨Sinhala plugins avalible✨
-## ✨❝𝐃𝐊-𝐊𝐈𝐍𝐆-𝐔𝐒𝐄𝐑-𝐁𝐎𝐓❞✨
+## ❝𝐃𝐊-𝐊𝐈𝐍𝐆-𝐔𝐒𝐄𝐑-𝐁𝐎𝐓❞
 
 <a href="#"><img width="30%" height="auto" src="https://te.legra.ph/file/f8610f27af09cdaf40589.jpg" height="175px"/></a>
 
