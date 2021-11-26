@@ -4,7 +4,6 @@ Available Commands:
 
 .think"""
 
-
 import asyncio
 
 from userbot.utils import lightning_cmd
@@ -20,42 +19,22 @@ async def _(event):
     # await event.edit(input_str)
     await event.edit("thinking")
     animation_chars = [
-        "THINKING",
-        "THI&K#N₹",
-        "T+IN@I?G",
-        "¿H$NK∆NG",
-        "¶H×NK&N*",
-        "NGITHKIN",
-        "T+I#K@₹G",
-        "THINKING",
-        "THI&K#N₹",
-        "T+IN@I?G",
-        "¿H$NK∆NG",
-        "¶H×NK&N*",
-        "NGITHKIN",
-        "T+I#K@₹G",
-        "THINKING",
-        "THI&K#N₹",
-        "T+IN@I?G",
-        "¿H$NK∆NG",
-        "¶H×NK&N*",
-        "NGITHKIN",
-        "T+I#K@₹G",
-        "THINKING",
-        "THI&K#N₹",
-        "T+IN@I?G",
-        "¿H$NK∆NG",
-        "¶H×NK&N*",
-        "NGITHKIN",
-        "T+I#K@₹G",
-        "THINKING",
-        "THI&K#N₹",
-        "T+IN@I?G",
-        "¿H$NK∆NG",
-        "¶H×NK&N*",
-        "NGITHKIN",
-        "T+I#K@₹G",
-        "THINKING... 🤔",
+        "මතකයන්",
+        "හිත පාරවයි",
+        "වසන්තේ කොහොදෝ",
+        "ගිහින්",
+        "ජිවිතේ තැනක නැවතිලා",
+        "මැකි යයි පිය සටහන්",
+        "පාසලෙන්👩‍👩‍👦👩‍👩‍👦😪",
+        "දුකයි",
+        "තමයි",
+        "මොනවා",
+        "කරන්නද*",
+        "ඉතිම්",
+        "ඔහොම",
+        "තමා ජිව්තේ",
+        "හැටි😑....",
+        "අනේ මන්දා😑😪... 🤔",
     ]
 
     for i in animation_ttl:
