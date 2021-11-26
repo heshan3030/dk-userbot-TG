@@ -37,7 +37,7 @@ async def set_not_afk(event):
     if ".afk" not in current_message and "yes" in USER_AFK:  # pylint:disable=E0602
         shite = await borg.send_message(
             event.chat_id,
-            "😶__Back alive!__\n**No Longer afk.**\n `Was afk for:``"
+            "😶__Back alive!ආපසු නැවත පැමිණ ඇත__\n**No Longer afk.**\n `Was afk for:``"
             + total_afk_time
             + "`",
         )
@@ -45,7 +45,7 @@ async def set_not_afk(event):
             await borg.send_message(  # pylint:disable=E0602
                 Var.PRIVATE_GROUP_BOT_API_ID,  # pylint:disable=E0602
                 "#AFKFALSE \nSet AFK mode to False\n"
-                + "😶__Back alive!__\n**No Longer afk.**\n `Was afk for:``"
+                + "😶__Back alive!ආපසු නැවත පැමිණ ඇත__\n**No Longer afk.**\n `Was afk for:``"
                 + total_afk_time
                 + "`",
             )
@@ -122,7 +122,7 @@ async def on_afk(event):
             f"**Hey!! My Sweet Owner is doing some offline job..come back later...offline Since when**?\n**For** `{total_afk_time}` "
             + f"\n\n__Reason__ :-\n**{reason}**"
             if reason
-            else f"**Heyy!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} .__\n\nWhen will I be back? Soon __Whenever I feel like coming back__🤧🚶🚶"
+            else f"**Heyy!**\n__මම ටික වේලාවක් සදහා offline ගොස් ඇත. තවමත් පැමිණ නැති බව කණගාටුවෙන් පවසා සිටිමි😔, 😇last seen-අවසාන වරට online පැමිණ ඇති අවසාන වේලාව? For {total_afk_time} .__\n\n🤪මම නැවත පැම්ණෙන වෙලාවක් මට සදහන් කිරිමට අපහසුය.හැකි සැම වෙලාවක මම ඔබගේ සහය සදහා පැමිණීමට බලාපොරොත්තු වෙමි Soon __අප හා සම්බන්ද වුවාට ස්තුතියි...සුභ දවසක්🙏🌞"
         )
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
