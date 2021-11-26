@@ -1,2 +1,4 @@
 ## avalible new sinhala plugins
-[alt text](https://raw.githubusercontent.com/heshan3030/dk-userbot-TG/branch/userbot/plugin)
+
+<a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
+
