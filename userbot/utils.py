@@ -423,8 +423,8 @@ def errors_handler(func):
 
             text = "**USERBOT CRASH REPORT**\n\n"
 
-            link = "[Here](https://t.me/lightning_support_group)"
-            text += "If you wanna you can report it"
+            link = "[Here](https://t.me/Dk_king_offcial)"
+            text += "ඔබට අවශ්‍යය නම්, ඔබට එය වාර්තා කළ හැකිය"
             text += f"- just forward this message {link}.\n"
             text += "Nothing is logged except the fact of error and date\n"
 
@@ -434,7 +434,7 @@ def errors_handler(func):
             ftext += "\nyou may not report this error if you've"
             ftext += "\nany confidential data here, no one will see your data\n\n"
 
-            ftext += "--------BEGIN Lightning USERBOT TRACEBACK LOG--------"
+            ftext += "--------BEGIN dk-king-USERBOT TRACEBACK LOG--------"
             ftext += "\nDate: " + date
             ftext += "\nGroup ID: " + str(errors.chat_id)
             ftext += "\nSender ID: " + str(errors.sender_id)
@@ -791,9 +791,9 @@ def start_assistant(shortname):
         mod.only_pvt = only_pvt()
         spec.loader.exec_module(mod)
         sys.modules[
-            "userbot.plugins.assistant" + "Initialising Lightning" + shortname
+            "userbot.plugins.assistant" + "Initialising dk-king-USERBOT" + shortname
         ] = mod
-        sedprint.info("Lightning Has imported " + shortname)
+        sedprint.info("dk-king-USERBOTt Has imported " + shortname)
 
 
 def load_assistant(shortname):
@@ -809,8 +809,8 @@ def load_assistant(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        print("Initialising Lightning.")
-        print("Lightning - Imported " + shortname)
+        print("Initialising dk-king-USERBOT.")
+        print("dk-king-USERBOT- Imported " + shortname)
     else:
         import importlib
         import sys
@@ -823,4 +823,4 @@ def load_assistant(shortname):
         mod.tgbot = bot.tgbot
         spec.loader.exec_module(mod)
         sys.modules["userbot.plugins.assistant." + shortname] = mod
-        print("Lightning Has imported " + shortname)
+        print("dk-king-USERBOT Has imported " + shortname)
