@@ -11,7 +11,7 @@ BOT =  = str(NAME) if NAME else "DK-KING-USER-BOT"
 #op for keinshin
 
 Dk_king_offcial = "[Dk_king_offcial](https://t.me/Dk_king_offcial)"
-OP = "[DK-KING-USER-BOT](https://github.com/KeinShin/Black-Lightning)"
+OP = "[DK-KING-USER-BOT](https://github.com/heshan3030/dk-userbot-TG)"
 OKAY = "[SUPPORT ](https://t.me/Dk_king_offcial)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
