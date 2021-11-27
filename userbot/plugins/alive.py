@@ -40,7 +40,7 @@ ALIVE_MSG = Config.ALIVE_MSG or "✮ MY BOT IS RUNNING SUCCESFULLY ✮"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ "
 hellversion = "7.0"
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "вℓα¢к ℓιgнтηιηg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "✨❝𝐃𝐊-𝐊𝐈𝐍𝐆-𝐔𝐒𝐄𝐑-𝐁𝐎𝐓❞✨"
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 
 # Thanks to Sipak bro and Raganork..
