@@ -119,7 +119,7 @@ async def on_afk(event):
         #           afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = (
-            f"**Hey!! My Sweet Owner is doing some offline job..come back later...offline Since when**?\n**For** `{total_afk_time}` "
+            f"**Hey!! My Sweet Owner is doing some offline job🫂..come back later...offline Since when**?\n**For** `{total_afk_time}` "
             + f"\n\n__Reason__ :-\n**{reason}**"
             if reason
             else f"**Heyy!**\n__මම ටික වේලාවක් සදහා offline ගොස් ඇත. තවමත් පැමිණ නැති බව කණගාටුවෙන් පවසා සිටිමි😔, 😇last seen-අවසාන වරට online පැමිණ ඇති අවසාන වේලාව? For {total_afk_time} .__\n\n🤪මම නැවත පැම්ණෙන වෙලාවක් මට සදහන් කිරිමට අපහසුය.හැකි සැම වෙලාවක මම ඔබගේ සහය සදහා පැමිණීමට බලාපොරොත්තු වෙමි Soon __අප හා සම්බන්ද වුවාට ස්තුතියි...සුභ දවසක්🙏🌞"
@@ -157,10 +157,10 @@ async def _(event):
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
             await borg.send_message(
-                event.chat_id, f"__**I shall be Going afk because**__ ~ {reason}"
+                event.chat_id, f"__**මම ටික වෙලාවක් සදහා offline යාමට තීරණය කර ඇත..හේතුව පහතින් සදහන් කර ඇත**__ ~ {reason}"
             )
         else:
-            await borg.send_message(event.chat_id, f"**I am Going afk!**")
+            await borg.send_message(event.chat_id, f"**මම ටික වෙලාවක් සදහා offline යාමට තීරණය කර ඇත**")
         await asyncio.sleep(5)
         await event.delete()
         try:
