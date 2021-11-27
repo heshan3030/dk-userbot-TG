@@ -10,9 +10,9 @@
                  CREDITS TEAMLEGEND
                  PLEASE KEEP CREDITS 🥺
 """
-# LEGEND AND LIGHTNING CAN USE THIS 
+# LEGEND AND dk-userbot CAN USE THIS 
 
-BOT = "BLACK LIGHTNING"
+BOT = "Dk-userbot"
 from telethon import events, Button, custom
 import os,re
 from telethon.tl.custom import Button 
@@ -22,9 +22,9 @@ async def inline_id_handler(event: events.InlineQuery.Event):
  LEGEND = event.builder
  X= [[custom.Button.inline("🔥 CLICK ME 🔥",data="obhai")]]
  query = event.text
- result = LEGEND.article("LIGHTNING",text="REPO AND SUPPORT",buttons=X,link_preview=False)
+ result = LEGEND.article("Dk-userbot",text="REPO AND SUPPORT",buttons=X,link_preview=False)
  await event.answer([result])
 @bot.on(events.callbackquery.CallbackQuery(data=re.compile(b"obhai")))
 async def callback_query_handler(event):
 # inline by LEGENDX22 and PROBOYX 🔥
-  await event.edit(text=f"{BOT} REPO AND GROUP LINK",buttons=[[Button.url(f"🔥{BOT} REPO🔥", url="https://github.com/KeinShin/Black-Lightning"), Button.url(f"⚡{BOT} SUPPORT⚡", url="https://t.me/lightning_support_group")]])
+  await event.edit(text=f"{BOT} REPO AND GROUP LINK",buttons=[[Button.url(f"🔥{BOT} REPO🔥", url="https://github.com/heshan3030/dk-userbot-TG"), Button.url(f"⚡{BOT} SUPPORT⚡", url="https://t.me/Dk_king_offcialp")]])
