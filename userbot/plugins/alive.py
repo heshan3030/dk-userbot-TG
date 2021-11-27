@@ -196,7 +196,7 @@ async def amireallyalive(calive):
         pm_caption = f"**{ALIVE_MSG}**\n\n"
         pm_caption += f"**{EMOJI} Database :** `{check_sgnirts}`\n"
         pm_caption += f"**{EMOJI} Telethon version :** `{version}\n`"
-        pm_caption += f"**{EMOJI} Lightning Userbot Version :** `{catversion}`\n"
+        pm_caption += f"**{EMOJI} DK-KING-USER-BOT Uerbot Version :** `{catversion}`\n"
         pm_caption += f"**{EMOJI} Python Version :** `{python_version()}\n`"
         pm_caption += f"**{EMOJI} Uptime :** `{uptime}\n`"
         pm_caption += f"**{EMOJI} Master:** {DEFAULTUSER}\n"
@@ -210,7 +210,7 @@ async def amireallyalive(calive):
             f"**{ALIVE_MSG}**\n\n"
             f"**{EMOJI} Database :** `{check_sgnirts}`\n"
             f"**{EMOJI} Telethon Version :** `{version}\n`"
-            f"**{EMOJI} Lightning Userbot Version :** `{catversion}`\n"
+            f"**{EMOJI} DK-KING-USER-BOT Uerbot Version :** `{catversion}`\n"
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Master:** {DEFAULTUSER}\n",
