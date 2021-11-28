@@ -9,13 +9,13 @@ import asyncio
 import os
 import sys
 
-from uniborg.util import lightning_cmd
+from uniborg.util import DK-KING-USER-BOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="restart"))
+@borg.on(DK-KING-USER-BOT_cmd(pattern="restart"))
 async def _(event):
     await event.edit(
-        "Black Lightning restarted successfully. Wait for 2-3 minutes to complete all processes."
+        "DK-KING-USER-BOT ‼️♻️අපගේ සහකාරුගේ පද්ධතියේ දෝෂයකි♻️‼️...🔄restart කිරීම සාර්ථකව සිදු කර ඇත.🔄...මේ සදහා විනාඩි 2-3 කාලයක් ගතවනු ඇත.මදක් රැදි සිටින්න😇"
     )
     await borg.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
@@ -23,7 +23,7 @@ async def _(event):
     quit()
 
 
-@borg.on(lightning_cmd(pattern="shutdown"))
+@borg.on(DK-KING-USER-BOT_cmd(pattern="shutdown"))
 async def _(event):
     if event.fwd_from:
         return
