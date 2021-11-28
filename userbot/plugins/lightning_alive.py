@@ -50,14 +50,13 @@ TG_CHANN = str(TG_CHANNEL) if TG_CHANNEL else "Not Yet😁😁"
 
 from userbot import CMD_LIST
 
-pm_caption = "**✨𝐃𝐊-𝐊𝐈𝐍𝐆-𝐔𝐒𝐄𝐑-𝐁𝐎𝐓✨ සක්‍රියව පවති**\n\n"
-pm_caption += f"**මගේ අයිතිකරු**         : {DEFAULTUSER}\n"
-pm_caption += "**මගේ වයස**        : 1.17.5\n"
-pm_caption += "**මගේ ලිපිනය**   : [MY EMAIL](mailto:datamaruwooffcial@gmail.com)\n"
-pm_caption += "**මගේ දුරකථන අංකය**  :[MY NUMBER](https://wa.me/message/0768100942)\n"
-pm_caption += "**දෝෂ වර්තා සමුහය**   : [SUPPORT GROUP](https://t.me/Datamaruwoteambot)\n"
+pm_caption = "**✨𝐃𝐊-𝐊𝐈𝐍𝐆-𝐔𝐒𝐄𝐑-𝐁𝐎𝐓✨ 🔔සක්‍රියව පවති🔔**\n\n"
+pm_caption += f"**✅මගේ අයිතිකරු** : {DEFAULTUSER}\n"
+pm_caption += "**✅මගේ වයස**     : 1.17.5\n"
+pm_caption += "**✅මගේ දුරකථන අංකය**  :[MY NUMBER](https://wa.me/message/0768100942)\n"
+pm_caption += "**✅දෝෂ වර්තා සමුහය**   : [SUPPORT BOT](https://t.me/Datamaruwoteambot)\n"
 
-pm_caption += "[🌸ꗥ～ꗥ🌸 𝐃𝐊-𝐊𝐈𝐍𝐆 🌸ꗥ～ꗥ🌸](https://t.me/Datamaruwoteambot)"
+pm_caption += "[🌸ꗥ～ꗥ🌸 𝐃𝐊-𝐊𝐈𝐍𝐆-𝐔𝐒𝐄𝐑-𝐁𝐎𝐓 🌸ꗥ～ꗥ🌸](https://t.me/Datamaruwoteambot)"
 
 @borg.on(lightning_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
