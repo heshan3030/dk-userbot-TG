@@ -3,7 +3,7 @@ import time
 from userbot import ALIVE_NAME, CMD_HELP, Lastupdate
 from userbot.Config import Var
 from userbot.plugins import telever
-from userbot.utils import lightning_cmd, sudo_cmd
+from userbot.utils import DK-KING-USER-BOT_cmd, sudo_cmd
 
 
 # Functions
@@ -38,7 +38,7 @@ def get_readable_time(seconds: int) -> str:
 uptime = get_readable_time((time.time() - Lastupdate))
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = Var.ALIVE_IMAGE
-pm_caption = "➥ **𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤 IS:** `ONLINE`\n\n"
+pm_caption = "➥ **DK-KING-USER-BOT IS:** `ONLINE`\n\n"
 pm_caption += "➥ **SYSTEMS STATS**\n"
 pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
 pm_caption += "➥ **Python:** `3.7.4` \n"
@@ -48,10 +48,10 @@ pm_caption += "➥ **Current Branch** : `master`\n"
 pm_caption += f"➥ **Version** : `{telever}`\n"
 pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
 pm_caption += "➥ **Heroku Database** : `AWS - Working Properly`\n\n"
-pm_caption += "➥ **License** : [GNU General Public License v3.0](https://github.com/Anmol-dot283/Black-Lightning)\n"
-pm_caption += "➥ **Copyright** : By [KeinShin@Github](GitHub.com/StarkGang)\n"
+pm_caption += "➥ **License** : [GNU General Public License v3.0](https://github.com/Anmol-dot283/dk-userbot-TG)\n"
+pm_caption += "➥ **Copyright** : By [heshan3030@Github](GitHub.com/StarkGang)\n"
 pm_caption += "➥ **Check Stats By Doing** `.stat`. \n\n"
-pm_caption += "[🇮🇳 Deploy 𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤Userbot 🇮🇳](https://telegra.ph/FRIDAY-06-15)"
+pm_caption += "(Deploy DK-KING-USER-BOT] (Deploy To Heroku =https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heshan3030/dk-userbot-TG/))"
 
 
 @borg.on(lightning_cmd(pattern=r"fralive"))
