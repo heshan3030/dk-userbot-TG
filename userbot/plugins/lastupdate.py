@@ -45,5 +45,5 @@ async def _(event):
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - Lastupdate))
     await event.edit(
-        f"🔰   Black Lightning Userbot Has Been Restarted Or Updated {uptime} Ago !"
+        f"🔰   DK-KING Userbot Has Been Restarted Or Updated {uptime} Ago !"
     )
