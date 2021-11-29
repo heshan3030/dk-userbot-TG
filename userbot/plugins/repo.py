@@ -9,5 +9,5 @@ from userbot.utils import lightning_cmd
 from userbot import CMD_HELP
 @borg.on(lightning_cmd(pattern=r"repo", outgoing=True))
 async def hapy(event):
-     a="𝙷𝙴𝚈 𝙷𝙴𝚁𝙴 𝙸𝚉 𝚃𝙷𝙴 𝙾𝙿 [⚡𝙱𝙻𝙰𝙲𝙺 𝙻𝙸𝙶𝙷𝚃𝙽𝙸𝙽𝙶 𝚁𝙴𝙿𝙾⚡](https://github.com/Keinshin/Black-Lightning)"
+     a="😈මෙන්න මගේ දත්ත ගබඩාව😈 [⚡𝐃𝐊-𝐊𝐈𝐍𝐆-𝐔𝐒𝐄𝐑-𝐁𝐎𝐓⚡](https://github.com/heshan3030/dk-userbot)"
      await event.edit(a)
